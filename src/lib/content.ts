@@ -18,6 +18,7 @@ import remarkParse from 'remark-parse';
 import remarkRehype from 'remark-rehype';
 import { unified } from 'unified';
 
+import rehypeMermaid from '@/lib/rehypeMermaid';
 import { Post, PostMeta } from '@/types/post';
 import { slugify } from '@/utils';
 
@@ -141,6 +142,7 @@ const processor = unified()
   .use(rehypeRaw)
   .use(rehypeSanitize, sanitizeSchema)
   .use(rehypeKatex)
+  .use(rehypeMermaid)
   .use(rehypePrettyCode, {
     theme: {
       light: 'github-light',

@@ -61,6 +61,31 @@ $$
 \sum_{i=1}^{n} x_i = x_1 + x_2 + \cdots + x_n
 $$
 
+### Mermaid
+
+```mermaid
+flowchart TD
+  Start([Start Writing]) --> Draft[Write Markdown in Obsidian]
+  Draft --> Check{Ready to publish?}
+
+  Check -- No --> Revise[Revise content and images]
+  Revise --> Draft
+
+  Check -- Yes --> Commit[Git Commit]
+  Commit --> Push[GitHub Push]
+
+  subgraph Deploy["Vercel Deployment"]
+    Build[Next.js Static Build] --> SEO[Generate RSS, Sitemap, and JSON-LD]
+    SEO --> Publish[Publish Blog]
+  end
+
+  Push --> Build
+  Publish --> Monitor{Any issues?}
+  Monitor -- Yes --> Fix[Fix and redeploy]
+  Fix --> Draft
+  Monitor -- No --> Done([Done])
+```
+
 ---
 
 Edit or delete this sample post, and start writing your own!
