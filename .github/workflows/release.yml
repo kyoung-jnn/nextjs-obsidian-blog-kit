@@ -35,7 +35,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          tag="v$(node -p \"require('./package.json').version\")"
+          tag="v$(node -p 'require("./package.json").version')"
           if gh release view "$tag" >/dev/null 2>&1; then
             echo "GitHub Release $tag already exists."
           else
