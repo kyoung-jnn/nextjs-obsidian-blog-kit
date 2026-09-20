@@ -227,15 +227,12 @@
 }
 
 .markdown-render pre.mermaid .node rect {
-  filter:
-    drop-shadow(3px 3px 5px rgb(0 0 0 / 12%))
+  filter: drop-shadow(3px 3px 5px rgb(0 0 0 / 12%))
     drop-shadow(-2px -2px 4px rgb(255 255 255 / 90%));
 }
 
 .dark .markdown-render pre.mermaid .node rect {
-  filter:
-    drop-shadow(3px 3px 6px rgb(0 0 0 / 55%))
-    drop-shadow(-2px -2px 4px rgb(255 255 255 / 5%));
+  filter: drop-shadow(3px 3px 6px rgb(0 0 0 / 55%)) drop-shadow(-2px -2px 4px rgb(255 255 255 / 5%));
 }
 
 /* Code block title */

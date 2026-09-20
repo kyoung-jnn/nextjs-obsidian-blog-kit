@@ -1,6 +1,5 @@
-import { PropsWithChildren } from 'react';
-
 import Image from 'next/image';
+import type { PropsWithChildren } from 'react';
 
 import PostActions from '@/app/article/[slug]/components/PostActions';
 import PostFooter from '@/app/article/[slug]/components/PostFooter';

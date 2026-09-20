@@ -1,8 +1,7 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
-
 import { usePathname } from 'next/navigation';
+import { useEffect, useRef, useState } from 'react';
 
 function ProgressBar() {
   const pathname = usePathname();

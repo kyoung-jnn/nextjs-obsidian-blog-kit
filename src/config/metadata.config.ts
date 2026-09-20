@@ -1,5 +1,5 @@
-import { Metadata } from 'next';
-import { Twitter } from 'next/dist/lib/metadata/types/twitter-types';
+import type { Metadata } from 'next';
+import type { Twitter } from 'next/dist/lib/metadata/types/twitter-types';
 
 import blogConfig from '@/config/blog.config';
 

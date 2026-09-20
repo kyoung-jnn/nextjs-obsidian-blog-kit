@@ -1,9 +1,7 @@
-import { ReactNode } from 'react';
-
-import { Metadata, Viewport } from 'next';
-
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import type { Metadata, Viewport } from 'next';
+import type { ReactNode } from 'react';
 
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';

@@ -17,7 +17,11 @@ function hasClass(node: HastNode, className: string): boolean {
 function transformNode(node: HastNode): void {
   const [firstChild] = node.children || [];
 
-  if (node.tagName === 'pre' && firstChild?.tagName === 'code' && hasClass(firstChild, 'language-mermaid')) {
+  if (
+    node.tagName === 'pre' &&
+    firstChild?.tagName === 'code' &&
+    hasClass(firstChild, 'language-mermaid')
+  ) {
     node.properties = { className: ['mermaid'] };
     node.children = firstChild.children;
     return;

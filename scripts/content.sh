@@ -271,12 +271,11 @@ cat > ".obsidian/plugins/make-md/data.json" << 'MAKEMD_EOF'
     ".vscode",
     ".nvmrc",
     "Tags",
-    "eslint.config.mjs",
+    "biome.json",
     "next-env.d.ts",
 
     "next.config.mjs",
     "postcss.config.mjs",
-    "prettier.config.mjs",
     "package.json",
     "pnpm-lock.yaml",
     "tsconfig.json",

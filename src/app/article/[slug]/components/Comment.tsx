@@ -1,10 +1,9 @@
 'use client';
 
-import { useCallback, useEffect, useRef, useState } from 'react';
+import Giscus, { type Repo, type Theme } from '@giscus/react';
 
 import { useTheme } from 'next-themes';
-
-import Giscus, { Repo, Theme } from '@giscus/react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 import { COMMENT_CONFIG, SITE_CONFIG } from '@/config';
 

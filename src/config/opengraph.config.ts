@@ -1,4 +1,4 @@
-import { OpenGraph } from 'next/dist/lib/metadata/types/opengraph-types';
+import type { OpenGraph } from 'next/dist/lib/metadata/types/opengraph-types';
 
 import blogConfig from '@/config/blog.config';
 

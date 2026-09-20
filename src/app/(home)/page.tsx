@@ -1,7 +1,5 @@
+import type { Metadata } from 'next';
 import { Suspense } from 'react';
-
-import { Metadata } from 'next';
-
 
 import HomeArticleCardList from '@/app/(home)/components/HomeArticleCardList';
 import Menu from '@/app/(home)/components/Menu';

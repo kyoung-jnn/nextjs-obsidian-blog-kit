@@ -63,4 +63,7 @@ src/config/blog.config.ts
 # Make.md vault artifact
 Vault.md
 
+# Local implementation specs and plans
+docs/specs/
+
 # End of https://www.toptal.com/developers/gitignore/api/nextjs
