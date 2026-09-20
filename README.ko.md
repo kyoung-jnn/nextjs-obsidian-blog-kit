@@ -148,6 +148,10 @@ Obsidian에서 이미지를 붙여넣으면 `public/images/`에 자동 저장되
 
 기여는 언제나 환영합니다! Pull Request를 자유롭게 제출해주세요. 큰 변경사항의 경우, 먼저 이슈를 열어 논의해주세요.
 
+## 릴리즈
+
+새 `package.json` 버전이 `main`에 병합 또는 Push되면 템플릿 릴리즈가 자동으로 생성됩니다. 버전 규칙은 [릴리즈 가이드](docs/releasing.md)를 참고하세요.
+
 ## 라이선스
 
 MIT 라이선스 — 자세한 내용은 [LICENSE](LICENSE)를 참조하세요.

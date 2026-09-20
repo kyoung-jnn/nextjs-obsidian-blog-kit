@@ -148,6 +148,12 @@ Images pasted in Obsidian are auto-saved to `public/images/` and path-transforme
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first.
 
+## Releases
+
+Template releases are created automatically when a new `package.json` version
+is merged or pushed to `main`. See [the release guide](docs/releasing.md) for
+the versioning rules.
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
