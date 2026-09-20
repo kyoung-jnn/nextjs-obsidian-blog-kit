@@ -1,5 +1,6 @@
 {
   "name": "nextjs-obsidian-blog-kit",
+  "version": "0.1.0",
   "license": "MIT",
   "packageManager": "pnpm@10.10.0",
   "type": "module",
