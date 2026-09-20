@@ -1,10 +1,9 @@
-import { cache } from 'react';
+import { transformerCopyButton } from '@rehype-pretty/transformers';
 
 import fs from 'fs';
-import path from 'path';
-
-import { transformerCopyButton } from '@rehype-pretty/transformers';
 import matter from 'gray-matter';
+import path from 'path';
+import { cache } from 'react';
 import rehypeKatex from 'rehype-katex';
 import rehypePrettyCode from 'rehype-pretty-code';
 import rehypeRaw from 'rehype-raw';
@@ -19,7 +18,7 @@ import remarkRehype from 'remark-rehype';
 import { unified } from 'unified';
 
 import rehypeMermaid from '@/lib/rehypeMermaid';
-import { Post, PostMeta } from '@/types/post';
+import type { Post, PostMeta } from '@/types/post';
 import { slugify } from '@/utils';
 
 const POSTS_DIR = path.join(process.cwd(), 'posts');

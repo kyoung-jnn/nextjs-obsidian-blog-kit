@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 import ArticleCard from '@/components/ArticleCard';
-import { PostMeta } from '@/types/post';
+import type { PostMeta } from '@/types/post';
 
 interface Props {
   posts: PostMeta[];

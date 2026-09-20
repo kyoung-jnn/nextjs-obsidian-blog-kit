@@ -1,8 +1,7 @@
 'use client';
 
-import { useEffect } from 'react';
-
 import { useTheme } from 'next-themes';
+import { useEffect } from 'react';
 
 import { getMermaidTheme } from '@/lib/mermaidTheme';
 

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { PostMeta } from '@/types/post';
+import type { PostMeta } from '@/types/post';
 
 interface Props {
   prev: PostMeta | null;

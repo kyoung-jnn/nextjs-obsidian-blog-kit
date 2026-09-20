@@ -1,6 +1,5 @@
-import { Metadata } from 'next';
-import { StaticImageData } from 'next/image';
-
+import type { Metadata } from 'next';
+import type { StaticImageData } from 'next/image';
 
 import GalleryPhoto from '@/app/gallery/components/GalleryPhoto';
 import GalleryVideo from '@/app/gallery/components/GalleryVideo';

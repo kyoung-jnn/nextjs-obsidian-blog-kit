@@ -1,12 +1,10 @@
 'use client';
 
-import { useState, MouseEvent, useEffect } from 'react';
-
 import Link from 'next/link';
+import { type MouseEvent, useEffect, useState } from 'react';
 
 import IconButton from '@/components/IconButton';
 import { MENU_LIST } from '@/config';
-
 
 function MobileMenu() {
   const [hasNav, setHasNav] = useState(false);
