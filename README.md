@@ -148,6 +148,12 @@ Images pasted in Obsidian are auto-saved to `public/images/` and path-transforme
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first.
 
+## Update an existing blog
+
+Run `pnpm blog:update` in a blog created from this template to apply the latest
+stable kit release. See [the update guide](docs/updating.md) for the first-time
+command for older blogs and the files that are preserved.
+
 ## Releases
 
 Template releases are created automatically when a new `package.json` version

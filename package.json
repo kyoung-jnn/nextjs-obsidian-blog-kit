@@ -1,6 +1,6 @@
 {
   "name": "nextjs-obsidian-blog-kit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "packageManager": "pnpm@10.10.0",
   "type": "module",
@@ -10,6 +10,7 @@
     "start": "next start",
     "blog:setup": "bash scripts/setup.sh",
     "blog:doctor": "bash scripts/doctor.sh",
+    "blog:update": "node scripts/blog-update.mjs",
     "blog:deploy": "bash scripts/deploy.sh prod",
     "blog:deploy:preview": "bash scripts/deploy.sh preview",
     "lint": "biome check .",
